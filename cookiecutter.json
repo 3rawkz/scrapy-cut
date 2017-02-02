@@ -1,0 +1,12 @@
+{
+  "project_name": "Offical Project Name™",
+  "description": "A short description of the project",
+  "repo_name": "repo_name",
+  "database": "database_name",
+  "ROBOTSTXT_OBEY": "True",
+  "First_spider_name": "FirstSpi",
+  "item_name_selector": "response.css('.entry-title a::text').re_first('.*[^\n,]')"
+  "item_event_selector": "response.xpath("//div[@class='details-content']/ul/li[1]/a/text()").extract()"
+  "item_vidurl_selector": "response.xpath("//div[@class='details-content']/ul/li[3]/a/@href").extract()"
+  "item_tags_selector": "response.xpath("//div[@class='details-content']/ul/li[4]/a/text()").extract()"
+}
