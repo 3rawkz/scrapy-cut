@@ -4,7 +4,7 @@ import scrapy
 
 
 class VidspiSpider(scrapy.Spider):
-    name = "vidSpi"
+    name = "{{cookiecutter.first_spider_name}}"
     allowed_domains = ["pyvideo.org"]
     start_urls = ['http://pyvideo.org/tags.html']
 

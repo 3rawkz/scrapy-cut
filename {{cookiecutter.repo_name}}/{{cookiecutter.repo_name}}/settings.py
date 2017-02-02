@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 BOT_NAME = "{{cookiecutter.First_spider_name}}"
-SPIDER_MODULES = ["{{cookiecutter.First_spider_name}}.spiders"]
+SPIDER_MODULES = ["{{cookiecutter.first_spider_name}}.spiders"]
 NEWSPIDER_MODULE = "{{cookiecutter.First_spider_name}}.spiders"
 
 LOG_FILE = "history.log"
 
 # Do not obey robots.txt
-ROBOTSTXT_OBEY = "{{cookicuter.ROBOTSTXT_OBEY}}"
+ROBOTSTXT_OBEY = "{{cookicuter.obey_robotxt}}"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) (KHTML, like Gecko) Version/2.1"
