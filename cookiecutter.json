@@ -5,8 +5,8 @@
   "database": "database_name",
   "ROBOTSTXT_OBEY": "True",
   "First_spider_name": "FirstSpi",
-  "item_name_selector": "enter here"
-  "item_event_selector": "enter here"
-  "item_vidurl_selector": "enter here"
+  "item_name_selector": "enter here",
+  "item_event_selector": "enter here",
+  "item_vidurl_selector": "enter here",
   "item_tags_selector": "enter here"
 }
